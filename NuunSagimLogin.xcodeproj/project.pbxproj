@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EEEE15B22D8962E300B1DBB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEEE15992D8962E200B1DBB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEEE15A02D8962E200B1DBB5;
+			remoteInfo = NuunSagimLogin;
+		};
+		EEEE15BC2D8962E300B1DBB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEEE15992D8962E200B1DBB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEEE15A02D8962E200B1DBB5;
+			remoteInfo = NuunSagimLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEEE15A12D8962E200B1DBB5 /* NuunSagimLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = NuunSagimLogin.app; path = "/Users/baegmugeun/Desktop/nuunsegim/NuunSagimLogin/build/Debug-iphoneos/NuunSagimLogin.app"; sourceTree = "<absolute>"; };
+		EEEE15B12D8962E300B1DBB5 /* NuunSagimLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NuunSagimLoginTests.xctest; path = "/Users/baegmugeun/Desktop/nuunsegim/NuunSagimLogin/build/Debug-iphoneos/NuunSagimLogin.app/PlugIns/NuunSagimLoginTests.xctest"; sourceTree = "<absolute>"; };
+		EEEE15BB2D8962E300B1DBB5 /* NuunSagimLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NuunSagimLoginUITests.xctest; path = "/Users/baegmugeun/Desktop/nuunsegim/NuunSagimLogin/build/Debug-iphoneos/NuunSagimLoginUITests-Runner.app/PlugIns/NuunSagimLoginUITests.xctest"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EEEE15A32D8962E200B1DBB5 /* NuunSagimLogin */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NuunSagimLogin;
+			sourceTree = "<group>";
+		};
+		EEEE15B42D8962E300B1DBB5 /* NuunSagimLoginTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NuunSagimLoginTests;
+			sourceTree = "<group>";
+		};
+		EEEE15BE2D8962E300B1DBB5 /* NuunSagimLoginUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NuunSagimLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEEE159E2D8962E200B1DBB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEE15AE2D8962E300B1DBB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEE15B82D8962E300B1DBB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEEE15982D8962E200B1DBB5 = {
+			isa = PBXGroup;
+			children = (
+				EEEE15A32D8962E200B1DBB5 /* NuunSagimLogin */,
+				EEEE15B42D8962E300B1DBB5 /* NuunSagimLoginTests */,
+				EEEE15BE2D8962E300B1DBB5 /* NuunSagimLoginUITests */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEEE15A02D8962E200B1DBB5 /* NuunSagimLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEE15C52D8962E300B1DBB5 /* Build configuration list for PBXNativeTarget "NuunSagimLogin" */;
+			buildPhases = (
+				EEEE159D2D8962E200B1DBB5 /* Sources */,
+				EEEE159E2D8962E200B1DBB5 /* Frameworks */,
+				EEEE159F2D8962E200B1DBB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EEEE15A32D8962E200B1DBB5 /* NuunSagimLogin */,
+			);
+			name = NuunSagimLogin;
+			packageProductDependencies = (
+			);
+			productName = NuunSagimLogin;
+			productReference = EEEE15A12D8962E200B1DBB5 /* NuunSagimLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEEE15B02D8962E300B1DBB5 /* NuunSagimLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEE15C82D8962E300B1DBB5 /* Build configuration list for PBXNativeTarget "NuunSagimLoginTests" */;
+			buildPhases = (
+				EEEE15AD2D8962E300B1DBB5 /* Sources */,
+				EEEE15AE2D8962E300B1DBB5 /* Frameworks */,
+				EEEE15AF2D8962E300B1DBB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEEE15B32D8962E300B1DBB5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EEEE15B42D8962E300B1DBB5 /* NuunSagimLoginTests */,
+			);
+			name = NuunSagimLoginTests;
+			packageProductDependencies = (
+			);
+			productName = NuunSagimLoginTests;
+			productReference = EEEE15B12D8962E300B1DBB5 /* NuunSagimLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEEE15BA2D8962E300B1DBB5 /* NuunSagimLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEE15CB2D8962E300B1DBB5 /* Build configuration list for PBXNativeTarget "NuunSagimLoginUITests" */;
+			buildPhases = (
+				EEEE15B72D8962E300B1DBB5 /* Sources */,
+				EEEE15B82D8962E300B1DBB5 /* Frameworks */,
+				EEEE15B92D8962E300B1DBB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEEE15BD2D8962E300B1DBB5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EEEE15BE2D8962E300B1DBB5 /* NuunSagimLoginUITests */,
+			);
+			name = NuunSagimLoginUITests;
+			packageProductDependencies = (
+			);
+			productName = NuunSagimLoginUITests;
+			productReference = EEEE15BB2D8962E300B1DBB5 /* NuunSagimLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEEE15992D8962E200B1DBB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					EEEE15A02D8962E200B1DBB5 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					EEEE15B02D8962E300B1DBB5 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EEEE15A02D8962E200B1DBB5;
+					};
+					EEEE15BA2D8962E300B1DBB5 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EEEE15A02D8962E200B1DBB5;
+					};
+				};
+			};
+			buildConfigurationList = EEEE159C2D8962E200B1DBB5 /* Build configuration list for PBXProject "NuunSagimLogin" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEEE15982D8962E200B1DBB5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EEEE15982D8962E200B1DBB5;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEEE15A02D8962E200B1DBB5 /* NuunSagimLogin */,
+				EEEE15B02D8962E300B1DBB5 /* NuunSagimLoginTests */,
+				EEEE15BA2D8962E300B1DBB5 /* NuunSagimLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEEE159F2D8962E200B1DBB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEE15AF2D8962E300B1DBB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEE15B92D8962E300B1DBB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEEE159D2D8962E200B1DBB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEE15AD2D8962E300B1DBB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEE15B72D8962E300B1DBB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEEE15B32D8962E300B1DBB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEEE15A02D8962E200B1DBB5 /* NuunSagimLogin */;
+			targetProxy = EEEE15B22D8962E300B1DBB5 /* PBXContainerItemProxy */;
+		};
+		EEEE15BD2D8962E300B1DBB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEEE15A02D8962E200B1DBB5 /* NuunSagimLogin */;
+			targetProxy = EEEE15BC2D8962E300B1DBB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EEEE15C32D8962E300B1DBB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEEE15C42D8962E300B1DBB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEEE15C62D8962E300B1DBB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NuunSagimLogin/Preview Content\"";
+				DEVELOPMENT_TEAM = M2DK6878KK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mugeun.NuunSagimLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEEE15C72D8962E300B1DBB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NuunSagimLogin/Preview Content\"";
+				DEVELOPMENT_TEAM = M2DK6878KK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mugeun.NuunSagimLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEEE15C92D8962E300B1DBB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2DK6878KK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mugeun.NuunSagimLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NuunSagimLogin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NuunSagimLogin";
+			};
+			name = Debug;
+		};
+		EEEE15CA2D8962E300B1DBB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2DK6878KK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mugeun.NuunSagimLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NuunSagimLogin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NuunSagimLogin";
+			};
+			name = Release;
+		};
+		EEEE15CC2D8962E300B1DBB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2DK6878KK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mugeun.NuunSagimLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NuunSagimLogin;
+			};
+			name = Debug;
+		};
+		EEEE15CD2D8962E300B1DBB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M2DK6878KK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mugeun.NuunSagimLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NuunSagimLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEEE159C2D8962E200B1DBB5 /* Build configuration list for PBXProject "NuunSagimLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEE15C32D8962E300B1DBB5 /* Debug */,
+				EEEE15C42D8962E300B1DBB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEEE15C52D8962E300B1DBB5 /* Build configuration list for PBXNativeTarget "NuunSagimLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEE15C62D8962E300B1DBB5 /* Debug */,
+				EEEE15C72D8962E300B1DBB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEEE15C82D8962E300B1DBB5 /* Build configuration list for PBXNativeTarget "NuunSagimLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEE15C92D8962E300B1DBB5 /* Debug */,
+				EEEE15CA2D8962E300B1DBB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEEE15CB2D8962E300B1DBB5 /* Build configuration list for PBXNativeTarget "NuunSagimLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEE15CC2D8962E300B1DBB5 /* Debug */,
+				EEEE15CD2D8962E300B1DBB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEEE15992D8962E200B1DBB5 /* Project object */;
+}
